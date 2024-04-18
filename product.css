@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+.product-card {
+	box-shadow: 0 12px 17px rgba(129, 140, 151, 0.1);
+}
+.product-card .product-image {
+	height: 220px;
+	position: relative;
+}
+.product-card .product-image .product-thumbnail {
+	width: 84%;
+	height: 90%;
+    margin: 10% 8% 0;
+}
+
+.product-card .product-details a:hover {
+	text-decoration: none;
+	color: #0062cc;
+}
